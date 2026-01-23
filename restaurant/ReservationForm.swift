@@ -31,11 +31,11 @@ struct ReservationForm: View {
         count == 1 ? "Child" : "Children"
     }
     
-    func estimetion(_ adults:Int, _ children: Int) -> Double{
-        let AdultPrice = 15.0
-        let ChildPrice = 9.0
+    func estimetionTotal(_ adults:Int, _ children: Int) -> Double{
+        let adultPrice = 15.0
+        let childPrice = 9.00
         
-        return Double(adults) * AdultPrice + Double(children)
+        return Double(adults) * adultPrice + Double(children) * childPrice
     }
     
     //3) estimation function
@@ -143,9 +143,9 @@ struct ReservationForm: View {
                 HStack { Text ("Children"); Spacer(); Text("\(childrenCount)")}
                 
                 HStack {
-                    Text ("Estimated total")
+                    Text("Estimated total")
                     Spacer()
-                    Text("$120.00")
+                    Text("$\(estimetionTotal(guestCount,childrenCount), specifier:"%.2f")")
                 }
                 
             }

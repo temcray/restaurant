@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		540B10672F10A24100ADFA74 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540B10662F10A24100ADFA74 /* ReservationForm.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		540B10442F0F257A00ADFA74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,7 +27,6 @@
 		540B10362F0F257900ADFA74 /* restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540B10432F0F257A00ADFA74 /* restaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540B104D2F0F257A00ADFA74 /* restaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		540B10662F10A24100ADFA74 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,7 +80,6 @@
 		540B102D2F0F257900ADFA74 = {
 			isa = PBXGroup;
 			children = (
-				540B10662F10A24100ADFA74 /* ReservationForm.swift */,
 				540B10642F1095F900ADFA74 /* Practice */,
 				540B10382F0F257900ADFA74 /* restaurant */,
 				540B10462F0F257A00ADFA74 /* restaurantTests */,
@@ -249,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540B10672F10A24100ADFA74 /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
